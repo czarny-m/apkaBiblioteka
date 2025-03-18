@@ -1,7 +1,7 @@
-📘 Library Management API
+#📘 Library Management API
 Prosty projekt REST API do zarządzania książkami i wypożyczeniami w bibliotece. Zrealizowany w Spring Boot + PostgreSQL.
 
-🚀 Technologie
+#🚀 Technologie
 Java 21
 Spring Boot 3.4
 Spring Data JPA
@@ -9,34 +9,35 @@ PostgreSQL 17
 Maven
 Lombok
 Postman (testowanie)
-🏗️ Funkcjonalności
-📚 Książki
+
+#🏗️ Funkcjonalności
+#📚 Książki
  Dodawanie książek
  Pobieranie listy książek
  Sprawdzanie dostępności książki
-👤 Użytkownicy
+#👤 Użytkownicy
  Dodawanie użytkownika
  Pobieranie listy użytkowników
-🔄 Wypożyczenia
+#🔄 Wypożyczenia
  Wypożyczenie książki przez użytkownika
  Zwracanie książki
  Walidacja: max. 3 aktywne wypożyczenia na użytkownika
  Obsługa wyjątków
-🔌 Endpointy REST
-📖 Książki
+#🔌 Endpointy REST
+#📖 Książki
 Metoda	Endpoint	Opis
 GET	/api/books	Lista wszystkich książek
 POST	/api/books	Dodaj nową książkę
-👤 Użytkownicy
+#👤 Użytkownicy
 Metoda	Endpoint	Opis
 GET	/api/users	Lista użytkowników
 POST	/api/users	Dodaj nowego użytkownika
-🔄 Wypożyczenia
+#🔄 Wypożyczenia
 Metoda	Endpoint	Opis
 GET	/api/loans	Lista wypożyczeń
 POST	/api/loans	Dodaj wypożyczenie
 PUT	/api/loans/return/{id}	Zwróć książkę
-🧪 Przykładowe zapytania (Postman)
+#🧪 Przykładowe zapytania (Postman)
 Dodanie książki:
 POST /api/books
 {
@@ -57,6 +58,6 @@ POST /api/loans
   "user": { "id": 1 },
   "book": { "id": 1 }
 }
-🧠 Autor projektu
+#🧠 Autor projektu
 Projekt zrealizowany edukacyjnie przez Mikołaj Niebrzegowski
 Mentor: ChatGPT - AI backend dev z 15-letnim doświadczeniem 😎
