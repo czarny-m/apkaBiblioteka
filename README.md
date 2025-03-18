@@ -75,3 +75,10 @@ POST /api/loans
 - **Projekt zrealizowany edukacyjnie przez Mikołaj Niebrzegowski** 
 - **Mentor: ChatGPT - AI backend dev z 15-letnim doświadczeniem 😎**
 
+ ## 📩 Kontakt
+Jeśli masz pytania, skontaktuj się ze mną:
+- 📧 Email: mikolajniebrzegowski1211@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/miko%C5%82aj-niebrzegowski-52b81b351/
+- 🔗 GitHub: https://github.com/czarny-m
+
+
