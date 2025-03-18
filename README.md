@@ -72,6 +72,6 @@ POST /api/loans
 
 }
 # 🧠 Autor projektu
-** Projekt zrealizowany edukacyjnie przez Mikołaj Niebrzegowski ** 
-** Mentor: ChatGPT - AI backend dev z 15-letnim doświadczeniem 😎 **
+- **Projekt zrealizowany edukacyjnie przez Mikołaj Niebrzegowski** 
+- **Mentor: ChatGPT - AI backend dev z 15-letnim doświadczeniem 😎**
 
