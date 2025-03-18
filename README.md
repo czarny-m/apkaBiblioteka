@@ -16,8 +16,8 @@ Prosty projekt REST API do zarządzania książkami i wypożyczeniami w bibliote
  - **Pobieranie listy książek**
  - **Sprawdzanie dostępności książki**
 # 👤 Użytkownicy
- -**Dodawanie użytkownika**
- -**Pobieranie listy użytkowników**
+ - **Dodawanie użytkownika**
+ - **Pobieranie listy użytkowników**
 # 🔄 Wypożyczenia
  - Wypożyczenie książki przez użytkownika
  - Zwracanie książki
@@ -40,23 +40,36 @@ Prosty projekt REST API do zarządzania książkami i wypożyczeniami w bibliote
 # 🧪 Przykładowe zapytania (Postman)
 - **Dodanie książki:**
 POST /api/books
+
 {
+
   "title": "Wiedźmin: Ostatnie życzenie",
+
   "author": "Andrzej Sapkowski",
+  
   "isbn": "9788375780635",
+  
   "available": true
 }
 - **Dodanie użytkownika:**
 POST /api/users
+
 {
+
   "name": "Jan Kowalski",
+
   "email": "jan@example.com"
+
 }
 - **Wypożyczenie:**
 POST /api/loans
+
 {
+
   "user": { "id": 1 },
+
   "book": { "id": 1 }
+
 }
 # 🧠 Autor projektu
 ** Projekt zrealizowany edukacyjnie przez Mikołaj Niebrzegowski ** 
